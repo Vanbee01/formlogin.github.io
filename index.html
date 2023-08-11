@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <title>Login</title>
+</head>
+<body>
+  <!--header-->
+  <header>
+    <h2 class="logo">Wahyudin</h2>
+    <nav class="navigation">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+      <button class="btnlogin-popup">login</button>
+    </nav>
+  </header>
+  <!--Halaman login-->
+  <div class="wrapper">
+    <div class="form-box login">
+      <h2>Login</h2>
+      <form action="#">
+        <div class="input-box">
+          <span class="icon"><ion-icon name="mail"></ion-icon></span>
+          <input type="email" required>
+          <label>Email</label>
+        </div>
+                <div class="input-box">
+          <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+          <input type="password" required>
+          <label>Password</label>
+        </div>
+        <div class="ingat">
+          <label><input type="checkbox"/>Simpan Password</label>
+          <a href="#">Lupa Password</a>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <div class="login-register">
+          <p>Buat akun baru? <a href="#" class="register-link">Daftar</a></p>
+        </div>
+      </form>
+    </div>
+  <!--Halaman Daftar-->
+  <div class="form-box register">
+    <h2>Daftar</h2>
+    <form action="#">
+        <div class="input-box">
+          <span class="icon"><ion-icon name="person"></ion-icon></span>
+          <input type="text" required>
+          <label>Username</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="mail"></ion-icon></span>
+          <input type="email" required>
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+          <input type="password" required>
+          <label>password</label>
+        </div>
+        <div class="ingat">
+          <label><input type="checkbox">Simpan akun</label>
+        </div>
+        
+        <button type="submit" class="btn">Buat akun</button>
+        <div class="login-register">
+          <p>Akun Lama?<a href="#" class="login-link">Login</a></p>
+        </div>
+    </form>
+  </div>
+ </div>
+ <script src="script.js"></script>
+ <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+ <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
